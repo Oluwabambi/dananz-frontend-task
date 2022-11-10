@@ -17,6 +17,7 @@
     padding: 0.8rem 1.7rem;
     border: none;
     font-weight: 500;
+    font-size: 14px;
 }
 .desc-w {
     width: 40%;
@@ -40,7 +41,7 @@
     display: flex;
     flex-direction: column;
 }
-label {
+.foot-label {
     font-size: 18px;
     margin-bottom: 2rem;
     display: flex;
@@ -53,11 +54,13 @@ label {
     padding-top: 0.5rem;
     padding-bottom: 0.75rem;
 }
-input {
+.foot-input {
     border: none;
     padding-top: 0.5rem;
+    font-size: 16px;
+    width: 100%;
 }
-input:focus {
+.foot-input:focus {
     outline: none;
 }
 .socials {
@@ -96,4 +99,28 @@ input:focus {
     height: 10px;
     border-radius: 50%;
     margin-right: 5px;
+}
+@media (max-width: 835px) {
+    .padd {
+        padding-left: 0;
+    }
+}
+@media (max-width: 780px) {
+    .footer-one, .footer-two {
+        flex-direction: column;
+    }
+    .w-footer {
+        width: 100%;
+    }
+    .desc-w {
+        width: 100%;
+    }
+}
+@media (max-width: 418px) {
+    .foot-label, .text-contact {
+        font-size: 16px;
+    }
+    .text-call, .desc {
+        font-size: 32px;
+    }
 }
