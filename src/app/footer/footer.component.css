@@ -26,6 +26,9 @@
 .desc-w {
     width: 40%;
 }
+.desc-w img {
+    max-width: 100%;
+}
 .desc {
     font-size: 36px;
     font-weight: 600;

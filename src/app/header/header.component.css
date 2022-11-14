@@ -20,6 +20,9 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.navbar-brand img {
+    max-width: 100%;
+}
 .nav-align {
     align-items: center;
 }
